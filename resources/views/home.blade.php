@@ -62,9 +62,9 @@
           <h1>Revenue Management Service</h1>
         </div>
         <div class="card-body">
-            <button>
-                <p>Saya Tertarik <i class="fas fa-arrow-right"></i></p>
-            </button>
+          <button>
+            <p>Saya Tertarik <i class="fas fa-arrow-right"></i></p>
+          </button>
         </div>
       </div>
       <div class="card">
@@ -77,9 +77,9 @@
             Service</h1>
         </div>
         <div class="card-body">
-            <button>
-                <p>Saya Tertarik <i class="fas fa-arrow-right"></i></p>
-            </button>
+          <button>
+            <p>Saya Tertarik <i class="fas fa-arrow-right"></i></p>
+          </button>
         </div>
       </div>
       <div class="card">
@@ -89,12 +89,12 @@
         </div>
         <div class="card-title">
           <h1>Asset Monetize
-            Service</h1> 
+            Service</h1>
         </div>
         <div class="card-body">
-            <button>
-                <p>Saya Tertarik <i class="fas fa-arrow-right"></i></p>
-            </button>
+          <button>
+            <p>Saya Tertarik <i class="fas fa-arrow-right"></i></p>
+          </button>
         </div>
       </div>
     </div>
@@ -121,7 +121,9 @@
               <p class="category">Brand Tertinggi di OYO</p>
             </div>
             <div class="caption-button">
-              <a href=""><p><i class="fas fa-circle-arrow-right"></i> Lihat Detail</p></a>
+              <a href="">
+                <p><i class="fas fa-circle-arrow-right"></i> Lihat Detail</p>
+              </a>
             </div>
           </div>
         </div>
@@ -134,7 +136,9 @@
               <p class="category">Brand Tertinggi di OYO</p>
             </div>
             <div class="caption-button">
-              <a href=""><p><i class="fas fa-circle-arrow-right"></i> Lihat Detail</p></a>
+              <a href="">
+                <p><i class="fas fa-circle-arrow-right"></i> Lihat Detail</p>
+              </a>
             </div>
           </div>
         </div>
@@ -147,7 +151,9 @@
               <p class="category">Brand Tertinggi di OYO</p>
             </div>
             <div class="caption-button">
-              <a href=""><p><i class="fas fa-circle-arrow-right"></i> Lihat Detail</p></a>
+              <a href="">
+                <p><i class="fas fa-circle-arrow-right"></i> Lihat Detail</p>
+              </a>
             </div>
           </div>
         </div>
@@ -160,46 +166,64 @@
 
   <section class="testimoni">
     <div class="testimoni-box">
-      <div class="testimoni-content">
-        <div class="testimoni-title">
-          <p>OUR TESTIMONIALS</p>
-          <h1>Yang Klien Kami Katakan</h1>
-        </div>
-        <div class="testimoni-text">
-          <div class="text-animation">
-            <img src="{{asset('assets/image/animation-3-home.png')}}" alt="">
-          </div>
-          <p>GWA Group membantu hotel
-            saya untuk menjangkau lebih banyak client dan memberikan saran monetisasi yang tidak pernah saya bayangkan sebelumnya</p>
-        </div>
-        <div class="testimoni-profile">
-          <img src="{{asset('assets/image/profile-image.png')}}" alt="">
-          <div class="profile-name">
-            <p class="name">Chaim Desmond</p>
-            <p>CEO of Yellow Hotel</p>
-          </div>
-        </div>
+      <div class="testimoni-title">
+        <p>OUR TESTIMONIALS</p>
+        <h1>Yang Klien Kami Katakan</h1>
       </div>
       <div class="testimoni-carousel">
         <div class="carousel-testimoni" id="TestimoniCarousel">
           <div class="carousel-testimoni-inner">
-              <div class="carousel-testimoni-item active">
-                  <img src="{{ asset('assets/image/image-carousel-home.png') }}" alt="Image 1">
+
+            <div class="carousel-testimoni-item active">
+              <div class="testimoni-text">
+                <div class="text-desc">
+                  <div class="text-animation">
+                    <img src="{{asset('assets/image/animation-3-home.png')}}" alt="">
+                  </div>
+                  <p>GWA Group membantu hotel
+                    saya untuk menjangkau lebih banyak client dan memberikan saran monetisasi yang tidak pernah saya bayangkan sebelumnya</p>
+                </div>
+                <div class="testimoni-profile">
+                  <div class="profile-icon">
+                    <img src="{{asset('assets/image/profile-image.png')}}" alt="">
+                  </div>
+                  <div class="profile-name">
+                    <p class="name">Chaim Desmond</p>
+                    <p>CEO of Yellow Hotel</p>
+                  </div>
+                </div>
               </div>
-              <div class="carousel-testimoni-item">
-                  <img src="{{ asset('assets/image/image-carousel-home.png') }}" alt="Image 2">
+              <img src="{{ asset('assets/image/image-carousel-home.png') }}" alt="Image 1">
+            </div>
+            <div class="carousel-testimoni-item active">
+              <div class="testimoni-text">
+                <div class="text-desc">
+                  <div class="text-animation">
+                    <img src="{{asset('assets/image/animation-3-home.png')}}" alt="">
+                  </div>
+                  <p>GWA Group membantu hotel
+                    saya untuk menjangkau lebih banyak client dan memberikan saran monetisasi yang tidak pernah saya bayangkan sebelumnya</p>
+                </div>
+                <div class="testimoni-profile">
+                  <div class="profile-icon">
+                    <img src="{{asset('assets/image/profile-image.png')}}" alt="">
+                  </div>
+                  <div class="profile-name">
+                    <p class="name">Chaim Desmond</p>
+                    <p>CEO of Yellow Hotel</p>
+                  </div>
+                </div>
               </div>
-              <div class="carousel-testimoni-item">
-                  <img src="{{ asset('assets/image/image-carousel-home.png') }}" alt="Image 3">
-              </div>
+              <img src="{{ asset('assets/image/image-carousel-home.png') }}" alt="Image 1">
+            </div>
           </div>
           <button class="carousel-testimoni-control prev" onclick="gantiSlide(-1)">&lt;</button>
           <button class="carousel-testimoni-control next" onclick="gantiSlide(1)">&gt;</button>
-      </div>
+        </div>
       </div>
     </div>
   </section>
-  
+
   <section class="konsultasi">
     <div class="konsultasi-text">
       <div class="title-konsultasi">
