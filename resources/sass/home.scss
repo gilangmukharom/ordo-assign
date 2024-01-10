@@ -358,11 +358,10 @@ $white-color :#fff;
 
                 .carousel-testimoni-control {
                     position: absolute;
-                    top: 50%;
+                    top: 40%;
                     width: 50px;
                     height: 50px;
                     border: none;
-                    border-radius: 50px;
                     background-color: $primary-color;
                     color: $white-color;
                     font-size: 20px;
@@ -377,12 +376,16 @@ $white-color :#fff;
                 }
 
                 .prev {
-                    left: 10px;
+                    right: 40%;
                     z-index: 99;
+                    border-top-left-radius: 25px;
+                    border-bottom-left-radius: 25px;
                 }
 
                 .next {
-                    right: 10px;
+                    right: 37%;
+                    border-top-right-radius: 25px;
+                    border-bottom-right-radius: 25px;
                 }
             }
         }

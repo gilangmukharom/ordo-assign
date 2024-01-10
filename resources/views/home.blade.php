@@ -212,6 +212,7 @@
                     <p class="name">Chaim Desmond</p>
                     <p>CEO of Yellow Hotel</p>
                   </div>
+                  
                 </div>
               </div>
               <img src="{{ asset('assets/image/image-carousel-home.png') }}" alt="Image 1">
